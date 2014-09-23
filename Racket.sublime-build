@@ -1,5 +1,5 @@
 {
-	"cmd": ["racket", "$file"],
+	"cmd": ["C:\\Program Files\\racket", "$file"],
 	"selector": "source.rkt",
 	"file_regex": "^(.*?):(\\d+):(\\d+):\\s(.|\\n)+"
 }
