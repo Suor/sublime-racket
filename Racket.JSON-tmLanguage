@@ -1,31 +1,31 @@
 { "name": "Racket",
-  "scopeName": "source.racket",
+  "scopeName": "source.rkt",
   "fileTypes": ["rkt"],
   "patterns": [
-    {"name": "string.quoted.double.source.racket",
+    {"name": "string.quoted.double.source.rkt",
      "begin": "\"",
      "end": "\""
     },
-    {"name": "meta.variable.source.racket",
+    {"name": "meta.variable.source.rkt",
      "match": "\\((define)\\s+([a-zA-Z0-9_\\-?\\+^]+)\\s*",
      "captures": {
-        "1": {"name": "keyword.source.racket"},
-        "2": {"name": "entity.name.variable.source.racket"}
+        "1": {"name": "keyword.source.rkt"},
+        "2": {"name": "entity.name.variable.source.rkt"}
         }
     },
-    {"name": "meta.keywords.source.racket",
+    {"name": "meta.keywords.source.rkt",
      "match": "\\b(if|lambda|cond|define|type-case|let|letrec|let!|\\#lang|require|test|else|first|rest|define-type|define-type-alias|define-struct|not|local|error)[\\s\\)]",
      "captures": {
-        "1": {"name": "keyword.source.racket"}
+        "1": {"name": "keyword.source.rkt"}
      }
     },
-    {"name": "constant.language.source.racket",
+    {"name": "constant.language.source.rkt",
      "match": "\\b(true|false|empty|cons)[\\s\\)]"
     },
-    {"name": "constant.numeric.integer.source.racket",
+    {"name": "constant.numeric.integer.source.rkt",
      "match": "\\b(0|([1-9][0-9_]*))\\b"
     },
-    {"name": "comment.line.documentation.source.racket",
+    {"name": "comment.line.documentation.source.rkt",
      "begin": ";",
      "end": "$\\n"
     }
