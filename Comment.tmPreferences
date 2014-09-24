@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Comment</string>
 	<key>scope</key>
-	<string>source.rkt</string>
+	<string>source.racket</string>
 	<key>settings</key>
 	<dict>
 		<key>shellVariables</key>
